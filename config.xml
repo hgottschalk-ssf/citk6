@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<<<<<<< HEAD
-<widget id="com.ionicframework.tktest426574" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:gap="http://phonegap.com/ns/1.0">
-=======
 <widget id="com.ionicframework.tktest426574" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
->>>>>>> 373ba08a3c015789f995bec32f41ea17865975a2
   <name>TKTest</name>
   <description>
         An Ionic Framework and Cordova project.
@@ -19,7 +15,6 @@
   <preference name="android-minSdkVersion" value="16"/>
   <preference name="BackupWebStorage" value="none"/>
   
-  <gap:plugin name="org.apache.cordova.dialogs" version="0.2.10" />
   
   <platform name="ios">
     <icon src="resources/ios/icon/icon.png" width="57" height="57"/>
@@ -74,7 +69,5 @@
   <feature name="StatusBar">
     <param name="ios-package" value="CDVStatusBar" onload="true"/>
   </feature>
-
-  <gap:plugin name="org.apache.cordova.dialogs" />
 
 </widget>
